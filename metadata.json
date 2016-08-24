@@ -1,0 +1,22 @@
+{
+  "name":         "ifunky-role",
+  "version":      "1.0.0",
+  "author":       "Dan Gibbons",
+  "license":      "MIT",
+  "summary":      "Contains all roles for for the domain",
+  "source":       "",
+  "project_page": "",
+  "issues_url":   "",
+  "operatingsystem_support": [
+      {
+        "operatingsystem": "Windows",
+        "operatingsystemrelease": [ "2008 R2", "2012", "2012 R2" ]
+      }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.4.0"
+    }
+  ]
+}
