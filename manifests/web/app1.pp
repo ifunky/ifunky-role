@@ -8,5 +8,5 @@
 #
 # @author Dan
 class role::web::app1 () inherits role::web {
-  notify { "Im in web!": }
+  include profile::windows::web::iiscore
 }
