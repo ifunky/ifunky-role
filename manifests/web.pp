@@ -2,5 +2,5 @@
 #
 # @author Dan
 class role::web () {
-
+  include ::profile::windows::software::notepadplusplus
 }
