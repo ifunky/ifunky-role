@@ -10,4 +10,5 @@ class role::teamcity_agent () {
   include ::profile::windows::software::ruby
   include ::profile::windows::software::rubydevkit
   include ::profile::windows::software::bundler
+  include ::profile::windows::software::buildtools2015
 }
