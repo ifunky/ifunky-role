@@ -1,9 +1,6 @@
-# Role class
-#
-# @example when declaring the class
-#   class { 'role' }
+# Base role class
 #
 # @author Dan
 class role () {
-
+  include ::profile::windows::software::notepadplusplus
 }
