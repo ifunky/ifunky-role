@@ -2,5 +2,5 @@
 #
 # @author Dan
 class role::app::elasticsearch_loader () inherits role::app {
-
+  include ::profile::windows::software::filebeat
 }
