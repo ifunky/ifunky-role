@@ -2,5 +2,5 @@
 #
 # @author Dan
 class role::app () inherits role  {
-
+  include ::profile::windows::application::base
 }
